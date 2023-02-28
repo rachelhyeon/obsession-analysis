@@ -93,7 +93,7 @@ there were 2,568,653 tokens in both subcorpora.
 
 
   | Subcorpus | Publications | Texts | Tokens |
-  |:-----------------| -------------- |------- |---------|
+  |:-----------------|:--------------:|:-------:|---------:|
   | Carol           |     1        |   1     |   90134 |
   | Other          |       29      |   115  |   2478519 |
   | Total           |        30      |   116  |   2568653 |                                
@@ -106,8 +106,7 @@ cleaned by removing the front matters and contents table. The text files
 were tokenized using the `tokens` function from `quanteda` library in R.
 
 The "Tokens" column in Table
-[1](#table:corpus-comp){reference-type="ref"
-reference="table:corpus-comp"} reflects the token count after data
+[1] reflects the token count after data
 cleaning. For Key Word In Context (KWIC) analysis, a separate subcorpus
 consisting only of five books in the Ripley series (*The Talented Mr.
 Ripley, Ripley Under Ground, Ripley's Game, The Boy Who Followed Ripley,
@@ -120,9 +119,9 @@ Ripley Under Water*) was constructed.
 A keyness analysis of Carol and Other subcorpora was conducted to
 identify the differences in token frequencies. Keyness analysis reveals
 what tokens, called "key words", appear more frequently than expected in
-the target corpus compared to the reference corpus [@wstools]. By
+the target corpus compared to the reference corpus [3]. By
 identifying the key words in each corpus, "socially important concepts"
-unique to the target corpus can be represented [@SCOTT1997233]. Keyness
+unique to the target corpus can be represented [4]. Keyness
 analysis was conducted in both directions, with Carol subcorpus being
 the target corpus initially and the Other subcorpus being the reference
 corpus. Then, the Other subcorpus became the target corpus, and the
@@ -145,7 +144,7 @@ used for sentiment analysis, where a dictionary containing words with
 positive and negative sentiments is matched with the text being
 analyzed. For this analysis, a custom lexicon/dictionary containing 432
 words related to obsession was built (Appendix 7.1). NRC Emotion Lexicon
-was used as a basis for building the lexicon [@nrc-emotion]. In addition
+was used as a basis for building the lexicon [5]. In addition
 to the NRC Emotion Lexicon, multi-word expressions (such as "train of
 thought" and "could not stop") and other synonyms of obsession that did
 not appear in the NRC Emotion Lexicon were added. The `tokens_lookup`
@@ -153,7 +152,7 @@ function from `quanteda` library was used to count the number of matches
 between the dictionary and the text. Results of the log-likelihood test
 and the effect size using log ratio were reported to test whether the
 differences between the two subcorpora are statistically significant at
-95% confidence level. The cut-off points for a log-likelihood ratio
+95\% confidence level. The cut-off points for a log-likelihood ratio
 statistic are 3.84 for $p < 0.05$, and 15.13 for $p < 0.0001$. Effect
 size using log ratio was also reported to see the magnitude of the given
 difference.
@@ -165,9 +164,9 @@ usage of the four most frequently occurring obsessive words in *Carol*
 and the Ripley series. The Ripley series was chosen as it is one of the
 most well-known novels by Patricia Highsmith. Also, Patricia Highsmith
 strongly identified with the main character Tom Ripley, sometimes
-signing off her writing with "Pat H., alias Ripley" [@times]. A KWIC
+signing off her writing with "Pat H., alias Ripley" [6]. A KWIC
 analysis can reveal various ways meaning can change for a word depending
-on the context in which it is used [@chowdhury]. Selected phrases with
+on the context in which it is used [7]. Selected phrases with
 five context words before and after the key words were presented. Each
 phrase contained one of the four most frequently appearing obsessive
 words, which were "thought", "think", "want", and "love". The same four
@@ -178,8 +177,7 @@ all obsessive words in the obsession dictionary.
 
 ## Keyness Analysis
 
-Table [2](#table:carol-keyness){reference-type="ref"
-reference="table:carol-keyness"} shows the result of the keyness
+Table [2] shows the result of the keyness
 analysis with Carol subcorpus as the target corpus and Other subcorpus
 as the reference corpus. Out of the six key words with the highest
 keyness values, four were related to the names of the characters in the
@@ -199,8 +197,7 @@ about 1.5. This suggests that Patricia Highsmith used "she" and "her"
 about 2.8 times more frequently in *Carol* than her other published
 works.
 
-Table [3](#table:other-keyness){reference-type="ref"
-reference="table:other-keyness"} shows the result of keyness analysis
+Table [3] shows the result of keyness analysis
 with Other subcorpus as the target corpus and Carol subcorpus as the
 reference corpus. Out of the six key words with the highest keyness
 values, two were related to the names of the characters in different
@@ -214,38 +211,34 @@ frequency of "police" (LL = 145.45, LR = 7.21) is 0 in *Carol*, which
 suggests that *Carol* has a weaker theme related to crime compared to
 the rest of her works.
 
-::: {#table:carol-keyness}
-  Token            LL      LR   PV   AF_Tar   AF_Ref   Per_10.6_Tar   Per_10.6_Ref   DP_Tar   DP_Ref
-  --------- --------- ------- ---- -------- -------- -------------- -------------- -------- --------
-  therese     8889.52   11.10    0     1354       17       15022.08           6.86        0     0.96
-  carol       8128.83    8.84    0     1302       78       14445.16          31.47        0     0.93
-  she         2121.39    1.64    0     2461    21782       27303.79        8788.33        0     0.26
-  her         1618.23    1.52    0     2129    20458       23620.39        8254.14        0     0.23
-  abby        1279.64   13.36    0      191        0        2119.07           0.00        0       NA
-  carol's     1176.19    8.76    0      189       12        2096.88           4.84        0     0.96
 
-  : Tokens with the highest keyness values in Carol subcorpus when
-  compared to Other subcorpus
-:::
+  | Token |  LL  |    LR |  PV  | AF_Tar  | AF_Ref  | Per_10.6_Tar  | Per_10.6_Ref  | DP_Tar  | DP_Ref |
+  ---------| ---------| -------| ----| -------- | -------| -------------- |-------------- |--------| --------|
+| therese  |   8889.52  | 11.10  |  0   |  1354 |      17    |   15022.08       |    6.86     |   0  |   0.96 |
+|  carol     |  8128.83  |  8.84  |  0   |  1302   |    78      | 14445.16      |    31.47      |  0  |   0.93
+|  she       |  2121.39  |  1.64  |  0   |  2461  |  21782    |   27303.79    |    8788.33    |    0  |   0.26  |
+|  her        | 1618.23   | 1.52  |  0    | 2129  |  20458    |   23620.39    |    8254.14      |  0   |  0.23 |
+|  abby     |   1279.64  | 13.36 |   0  |    191   |     0     |   2119.07       |    0.00    |    0    |   NA |
+|  carol's   |  1176.19  |  8.76 |   0    |  189    |   12     |   2096.88       |    4.84     |   0   |  0.96 |
 
-::: {#table:other-keyness}
-  Token           LL     LR   PV   AF_Tar   AF_Ref   Per_10.6_Tar   Per_10.6_Ref   DP_Tar   DP_Ref
-  -------- --------- ------ ---- -------- -------- -------------- -------------- -------- --------
-  he         1492.51   1.91    0    55315      537       22317.82        5957.80     0.14        0
-  his         925.60   1.94    0    33504      317       13517.78        3516.99     0.12        0
-  tom         736.14   7.60    0    10653        2        4298.14          22.19     0.80        0
-  him         336.52   1.46    0    17611      232        7105.47        2573.95     0.17        0
-  arthur      172.67   7.46    0     2417        0         975.18           0.00     0.95       NA
-  police      145.45   7.21    0     2036        0         821.46           0.00     0.32       NA
+ Tokens with the highest keyness values in Carol subcorpus when
+ compared to Other subcorpus
 
-  : Tokens with the highest keyness values in Other subcorpus when
+  | Token |  LL  |    LR |  PV  | AF_Tar  | AF_Ref  | Per_10.6_Tar  | Per_10.6_Ref  | DP_Tar  | DP_Ref |
+ | --------| --------- |------| ---- |-------- |-------- |-------------- |--------------| -------- |--------|
+|  he      |   1492.51 |  1.91 |   0  |  55315  |    537   |    22317.82   |     5957.80   |  0.14    |    0 |
+|  his      |   925.60  | 1.94  |  0  |  33504   |   317    |   13517.78    |    3516.99   |  0.12    |    0   |
+|  tom     |    736.14 |  7.60  |  0  |  10653   |     2     |   4298.14      |    22.19   |  0.80   |     0    |
+|  him      |   336.52  | 1.46  |  0  |  17611  |    232   |     7105.47    |    2573.95  |   0.17   |     0  |
+|  arthur   |   172.67 |  7.46  |  0   |  2417   |     0     |    975.18       |    0.00   |  0.95    |   NA |
+|  police    |  145.45 |  7.21  |  0   |  2036    |    0     |    821.46       |    0.00   |  0.32    |   NA |
+
+Tokens with the highest keyness values in Other subcorpus when
   compared to Carol subcorpus
-:::
 
 ## Lexicon-Based Analysis of Obsession
 
-Table [\[table:obs-tokens\]](#table:obs-tokens){reference-type="ref"
-reference="table:obs-tokens"} shows the obsession token count, total
+Table [4] shows the obsession token count, total
 tokens, and observed proportion (calculated by dividing obsession token
 count by total tokens) for every published novel and short story
 collection in the corpus. The obsession count ranged from 572 to 2028.
@@ -253,8 +246,7 @@ The average obsession count for the Other subcorpora was 1036.552. The
 obsession count for Carol was 1283. Observed proportion for the 30
 publications ranged from 0.85 to 1.57. The observed proportion for Carol
 was 1.42, which is at the higher end of the range. Figure
-[1](#fig:histogram){reference-type="ref" reference="fig:histogram"}
-shows a histogram of observed proportions for all 116 texts in the
+[1] shows a histogram of observed proportions for all 116 texts in the
 corpus. Eight short story texts had an observed proportion greater than
 1.57. One short story "Miss Juste And The Green Rompers" had an observed
 proportion greater than 3. The observed proportion of words related to
@@ -274,89 +266,48 @@ greater than the observed proportion for the Other subcorpus.
 116 texts and comparison of mean observed proportion of obsession
 between Carol and Other subcorpora. Count represents the number of texts
 with a certain value of observed proportion of
-obsession.](histogram-1.pdf){#fig:histogram width="\\linewidth"
-height="0.35\\textheight"}
+obsession.](./images/histogram-1.pdf)
 
-::: longtable
-@ \>
+| Texts                                       | Obsession Count | Total Tokens | Observed Proportion |
+|---------------------------------------------|-----------------|--------------|---------------------|
+| Animal-Lover's Book of Beastly Murder       | 572             | 66927        | 0.85                |
+| Black House, The                            | 802             | 79831        | 1.00                |
+| Blunderer, The                              | 1325            | 84261        | 1.57                |
+| Boy Who Followed Ripley, The                | 1245            | 108751       | 1.14                |
+| Cry of the Owl, The                         | 1193            | 88644        | 1.35                |
+| Deep Water                                  | 1168            | 87863        | 1.33                |
+| Dog's Ransom, A                             | 1035            | 84088        | 1.23                |
+| Edith's Diary                               | 1358            | 104186       | 1.30                |
+| Eleven                                      | 648             | 55678        | 1.16                |
+| Found in the Street                         | 1230            | 99215        | 1.24                |
+| Game for the Living, A                      | 1101            | 83671        | 1.32                |
+| Glass Cell                                  | 951             | 79915        | 1.19                |
+| Little Tales of Misogyny                    | 249             | 21641        | 1.15                |
+| Mermaids on the Golf Course                 | 705             | 68673        | 1.03                |
+| Nothing That Meets the Eye                  | 2028            | 160088       | 1.27                |
+| People Who Knock on the Door                | 1192            | 106828       | 1.12                |
+| Ripley Under Ground                         | 1105            | 91834        | 1.20                |
+| Ripley Under Water                          | 1073            | 92627        | 1.16                |
+| Ripley's Game                               | 1045            | 89615        | 1.17                |
+| Slowly, Slowly in the Wind                  | 673             | 62389        | 1.08                |
+| Small g                                     | 893             | 92761        | 0.96                |
+| Strangers on a Train                        | 1381            | 90870        | 1.52                |
+| Suspension of Mercy, A                      | 965             | 74556        | 1.29                |
+| Talented Mr Ripley, The                     | 1104            | 93665        | 1.18                |
+| Tales of Natural and Unnatural Catastrophes | 602             | 72514        | 0.83                |
+| This Sweet Sickness                         | 1236            | 92840        | 1.33                |
+| Those Who Walk Away                         | 1087            | 78483        | 1.39                |
+| Tremor of Forgery, The                      | 1151            | 78318        | 1.47                |
+| Two Faces of January, The                   | 943             | 87787        | 1.07                |
+| Price of Salt, The (or Carol)               | 1283            | 90134        | 1.42                |
 
-p(- 6) \* \>p(- 6) \* \>p(- 6) \* \>p(- 6) \* @
-
-()
-
-Texts
-
-&
-
-Obsession Count
-
-&
-
-Total tokens
-
-&
-
-Observed Proportion
-
-\
-() ()
-
-Texts
-
-&
-
-Obsession Count
-
-&
-
-Total tokens
-
-&
-
-Observed Proportion
-
-\
-() Animal-Lover's Book of Beastly Murder & 572 & 66927 & 0.85\
-Black House, The & 802 & 79831 & 1.00\
-Blunderer, The & 1325 & 84261 & 1.57\
-Boy Who Followed Ripley, The & 1245 & 108751 & 1.14\
-Cry of the Owl, The & 1193 & 88644 & 1.35\
-Deep Water & 1168 & 87863 & 1.33\
-Dog's Ransom, A & 1035 & 84088 & 1.23\
-Edith's Diary & 1358 & 104186 & 1.30\
-Eleven & 648 & 55678 & 1.16\
-Found in the Street & 1230 & 99215 & 1.24\
-Game for the Living, A & 1101 & 83671 & 1.32\
-Glass Cell & 951 & 79915 & 1.19\
-Little Tales of Misogyny & 249 & 21641 & 1.15\
-Mermaids on the Golf Course & 705 & 68673 & 1.03\
-Nothing That Meets the Eye & 2028 & 160088 & 1.27\
-People Who Knock on the Door & 1192 & 106828 & 1.12\
-Ripley Under Ground & 1105 & 91834 & 1.20\
-Ripley Under Water & 1073 & 92627 & 1.16\
-Ripley's Game & 1045 & 89615 & 1.17\
-Slowly, Slowly in the Wind & 673 & 62389 & 1.08\
-Small g & 893 & 92761 & 0.96\
-Strangers on a Train & 1381 & 90870 & 1.52\
-Suspension of Mercy, A & 965 & 74556 & 1.29\
-Talented Mr Ripley, The & 1104 & 93665 & 1.18\
-Tales of Natural and Unnatural Catastrophes & 602 & 72514 & 0.83\
-This Sweet Sickness & 1236 & 92840 & 1.33\
-Those Who Walk Away & 1087 & 78483 & 1.39\
-Tremor of Forgery, The & 1151 & 78318 & 1.47\
-Two Faces of January, The & 943 & 87787 & 1.07\
-Price of Salt, The (or Carol) & 1283 & 90134 & 1.42\
-()
-:::
 
 ## KWIC Analysis of Carol and the Ripley Series
 
-Table [\[table:15-obs-carol\]](#table:15-obs-carol){reference-type="ref"
-reference="table:15-obs-carol"} shows the 15 most frequently appearing
+Table [5] shows the 15 most frequently appearing
 tokens related to obsession in the Carol subcorpus. The top four tokens
 were "thought", "think", "want", and "love". Table
-[5](#table:15-obs-other){reference-type="ref"
-reference="table:15-obs-other"} shows 15 most frequently appearing
+[6] shows 15 most frequently appearing
 tokens related to obsession in the Other subcorpus. The top four tokens
 related to obsession in the Other subcorpus were also "thought",
 "think", "want", and "love", in the same order of frequency as the Carol
@@ -365,11 +316,9 @@ subcorpus. Other words such as "happy", "wondered", "lost", "miss",
 word "murder" appeared 355 times in the Other subcorpus while it was not
 one of the most commonly occurring words in *Carol*.
 
-Table [6](#table:disp-4words){reference-type="ref"
-reference="table:disp-4words"} shows the dispersion of "thought",
+Table [7] shows the dispersion of "thought",
 "think", "want" and "love" in all 116 texts. Looking at Juilland's D
-measure in Table [6](#table:disp-4words){reference-type="ref"
-reference="table:disp-4words"}, all four tokens had values close to 1,
+measure in Table [7], all four tokens had values close to 1,
 signifying that they are evenly dispersed throughout all text. All four
 tokens had a deviation of proportions (DP) measure close to 0, which
 also signified that they are evenly dispersed throughout the texts. Out
@@ -378,31 +327,24 @@ the lowest Juilland's D value of 0.876 and the highest DP value of
 0.260. "Thought" was the most evenly dispersed token with the highest
 Juilland's D value of 0.958 and the lowest DP value of 0.098.
 
-Tables [7](#kwic-strong-carol){reference-type="ref"
-reference="kwic-strong-carol"} to
-[10](#kwic-weak-ripley){reference-type="ref"
-reference="kwic-weak-ripley"} show examples of phrases that had strong
+Tables [8] to [11] show examples of phrases that had strong
 or weak obsessive emotions in Carol and Other subcorpora for the four
 most frequent tokens related to obsession. In Table
-[7](#kwic-strong-carol){reference-type="ref"
-reference="kwic-strong-carol"}, it can be seen that the four words
+[8], it can be seen that the four words
 "thought", "think", "want", and "love" appeared in sentences that
 display a strong obsessive emotion. The token "love" seemed to have an
 especially strong association with obsession. However, Table
-[8](#kwic-weak-carol){reference-type="ref" reference="kwic-weak-carol"}
-shows that the four key words were also present in sentences with weak
+[9] shows that the four key words were also present in sentences with weak
 obsession emotion in Carol. For instance, the words "thought" and
 "think" appeared in sentences where the thought was casual, or in a
 dialogue without much emotion. The word "love" also appear in sentences
 with weak obsessive emotion, such as in a dialogue without much emotion.
 
-Similarly, Table [9](#kwic-strong-ripley){reference-type="ref"
-reference="kwic-strong-ripley"} shows examples of phrases with the four
+Similarly, Table [10] shows examples of phrases with the four
 key words associated with a strong obsessive emotion for the Ripley
 series. The tokens "thought" and "think" had especially strong
 associations with obsession in the Ripley series. Table
-[10](#kwic-weak-ripley){reference-type="ref"
-reference="kwic-weak-ripley"} shows that the four key words were also
+[11] shows that the four key words were also
 present in sentences with a weak obsessive emotion in the Ripley series.
 For instance, the words "thought" and "think" appeared in sentences
 where the thought was casual, or in a dialogue without much emotion. The
@@ -410,51 +352,47 @@ words "want" and "love" also appeared in sentences with a weak obsessive
 emotion, especially in a dialogue or as part of the formula to end a
 letter ("With love").
 
-::: {#table:15-obs-other}
-  Feature      Frequency
-  ---------- -----------
-  thought            280
-  think              189
-  want               170
-  love                92
-  of                  45
-  miss                41
-  happy               34
-  wondered            29
-  loved               27
-  lost                20
-  wish                19
-  wished              17
-  pleasure            17
-  strong              16
-  anger               15
+
+| Feature   |   Frequency |
+|--------------|----------|
+| thought     |       280 |
+| think          |    189 |
+| want          |     170 |
+| love         |       92 |
+| of              |    45 |
+| miss          |      41 |
+| happy          |     34 |
+| wondered    |        29 |
+| loved          |     27 |
+| lost          |      20 |
+| wish         |       19 |
+| wished      |        17 |
+| pleasure    |        17 |
+| strong         |     16 |
+| anger           |    15 |
 
   : Obsessive word in Other by frequency
-:::
 
-::: {#table:15-obs-other}
-  Feature        Frequency
-  ------------ -----------
-  thought             5568
-  think               4187
-  want                2937
-  love                 974
-  thought of           699
-  happy                699
-  wondered             595
-  lost                 499
-  miss                 444
-  interested           432
-  loved                396
-  pleasure             357
-  murder               355
-  wished               329
-  angry                321
+| Feature    | Frequency |
+|------------|-----------|
+| thought    | 5568      |
+| think      | 4187      |
+| want       | 2937      |
+| love       | 974       |
+| thought of | 699       |
+| happy      | 699       |
+| wondered   | 595       |
+| lost       | 499       |
+| miss       | 444       |
+| interested | 432       |
+| loved      | 396       |
+| pleasure   | 357       |
+| murder     | 355       |
+| wished     | 329       |
+| angry      | 321       |
 
-  : Obsessive word in Other by frequency
-:::
+Obsessive word in Other by frequency
 
-::: {#table:disp-4words}
   Token         AF   Per_10.6   Carrolls_D2   Rosengrens_S   Lynes_D3      DC   Juillands_D      DP   DP_norm
   --------- ------ ---------- ------------- -------------- ---------- ------- ------------- ------- ---------
   thought     6510   2534.408         0.791          0.978      0.314   0.561         0.958   0.098     0.098
