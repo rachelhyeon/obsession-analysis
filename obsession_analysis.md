@@ -1,34 +1,31 @@
----
-abstract: |
-  In this paper, we analyzed the works of Patricia Highsmith, an
-  American novelist widely known for her psychological thrillers.
-  *Carol*, her second published novel, strikes out as an outlier in her
-  works as the only novel that centers on the theme of love. This paper
-  examined whether obsession is a common theme in both *Carol* and her
-  remaining works. Keyness analysis, lexicon analysis using a custom
-  dictionary of words related to obsession, and Key Word In Context
-  analysis were conducted. Keyness analysis revealed differences in
-  character names and gender pronouns used in *Carol* and her remaining
-  works. Female gender pronouns were used more frequently in *Carol*,
-  and male gender pronouns were used more frequently in her other works.
-  Lexicon analysis revealed a statistically significant difference
-  between the means of the observed proportion of words related to
-  obsession in *Carol* and her other works. The observed proportion of
-  obsessive words was higher for *Carol* than the mean observed
-  proportion of her other works. Key Word In Context analysis revealed
-  that the words tagged as obsessive seemed to vary in their degree of
-  obsession depending on the context in which the words were used.
-  Overall, obsession seemed to be a common theme in all of Patricia
-  Highsmith's works, although further validation of the custom
-  dictionary of obsessive words would be necessary.
-author:
-- Myung Kyung (Rachel) Hyeon
-bibliography:
-- references.bib
-date: December 12, 2022
-title: |
-  Obsession in the Works of Patricia Highsmith
----
+Obsession in the Works of Patricia Highsmith
+================
+Myung Kyung (Rachel) Hyeon
+2022-12-12
+
+# Abstract
+
+In this paper, we analyzed the works of Patricia Highsmith, an
+American novelist widely known for her psychological thrillers. 
+*Carol*, her second published novel, strikes out as an outlier in her
+works as the only novel that centers on the theme of love. This paper
+examined whether obsession is a common theme in both *Carol* and her
+remaining works. Keyness analysis, lexicon analysis using a custom
+dictionary of words related to obsession, and Key Word In Context
+analysis were conducted. Keyness analysis revealed differences in
+character names and gender pronouns used in *Carol* and her remaining
+works. Female gender pronouns were used more frequently in *Carol*,
+and male gender pronouns were used more frequently in her other works.
+Lexicon analysis revealed a statistically significant difference
+between the means of the observed proportion of words related to
+obsession in *Carol* and her other works. The observed proportion of
+obsessive words was higher for *Carol* than the mean observed
+proportion of her other works. Key Word In Context analysis revealed
+that the words tagged as obsessive seemed to vary in their degree of
+obsession depending on the context in which the words were used.
+Overall, obsession seemed to be a common theme in all of Patricia
+Highsmith's works, although further validation of the custom
+dictionary of obsessive words would be necessary.
 
 # Introduction
 
@@ -94,22 +91,20 @@ reference="table:corpus-comp"} shows that there were approximately 27
 times more tokens in the Other subcorpus than Carol subcorpus. In total,
 there were 2,568,653 tokens in both subcorpora.
 
-::: {#table:corpus-comp}
-  () Subcorpus       Publications   Texts     Tokens
-  ----------------- -------------- ------- ---------
-  () () Subcorpus    Publications   Texts     Tokens
-  () Carol                1           1        90134
-  Other                   29         115     2478519
-  Total                   30         116     2568653
-  ()                                       
 
-  : Corpus Composition of Carol and Other subcorpora
-:::
+  | Subcorpus | Publications | Texts | Tokens |
+  |:-----------------| -------------- |------- |---------|
+  | Carol           |     1        |   1     |   90134 |
+  | Other          |       29      |   115  |   2478519 |
+  | Total           |        30      |   116  |   2568653 |                                
+
+Corpus Composition of Carol and Other subcorpora
 
 The data was gathered by converting EPUB files to text files using
 Calibre, an e-book management software. The raw text files were manually
 cleaned by removing the front matters and contents table. The text files
 were tokenized using the `tokens` function from `quanteda` library in R.
+
 The "Tokens" column in Table
 [1](#table:corpus-comp){reference-type="ref"
 reference="table:corpus-comp"} reflects the token count after data
