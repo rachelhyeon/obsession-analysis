@@ -79,7 +79,7 @@ Misogyny*. The reason why *Little Tales of Misogyny* was not broken up
 into individual short stories was that the tales were extremely brief
 consisting of only few pages of "female caricature", and they were all
 centered on the theme of how men and women use each other "to the point
-of abuse" [@opiate-mag]. Other collections consisted of short stories
+of abuse" [2]. Other collections consisted of short stories
 with distinct plots and characters that warranted separation. In total,
 92 individual short stories were separated from 7 short story
 publications.
@@ -87,8 +87,7 @@ publications.
 The corpus was divided into two subcorpora, the first subcorpus named
 "Carol" containing the novel *Carol*, and the second subcorpus named
 "Other" containing all other 29 publications. Table
-[1](#table:corpus-comp){reference-type="ref"
-reference="table:corpus-comp"} shows that there were approximately 27
+[1] shows that there were approximately 27
 times more tokens in the Other subcorpus than Carol subcorpus. In total,
 there were 2,568,653 tokens in both subcorpora.
 
@@ -405,11 +404,11 @@ Dispersion of four most frequent tokens related to obsession both
 Carol and Other subcorpora
 
                       | phrase before  |  keyword   | phrase after|
- | ---------------------------------- |------------- |---------------------------------|
+ | ---------------------------------- :|:------------- :|:---------------------------------|
   |   she was still beautiful therese  |**thought** | with a sudden pang of |
    |         heard all around her she | **thought** | of carol over a thousand |
    |         hurt now beyond what you  | **think** |  you can bear and if |
-   |                  if i miss you i   **think**  | of your voice your hands |
+   |                  if i miss you i  | **think**  | of your voice your hands |
    |      a tense excitement made her |  **want**  |  to plunge headlong into it |
    | carol couldn't and wouldn't even  | **want**  |  to see her again has |
    |            felt for carol was it  | **love**  |  or wasn't it that she |
@@ -420,7 +419,7 @@ Carol and Other subcorpora
 Examples of strong obsessive emotion in Carol
 
 |                    phrase before  |  keyword   | phrase after |
-|  ------------------------------- |------------- |--------------------------------|
+ | ---------------------------------- :|:------------- :|:---------------------------------|
  |          show her the dolls she | **thought** | the child might like she |
  |                 i was so near i | **thought** | i'd come up he said |
  |         book of english verse i |  **think** |  i left it on top |
@@ -433,7 +432,7 @@ Examples of strong obsessive emotion in Carol
 Examples of weak obsessive emotion in Carol
 
  |                         phrase before |   keyword |   phrase after |
- | -------------------------------------| ------------- |--------------------------------|
+ | ---------------------------------- :|:------------- :|:---------------------------------|
  |   towards the coffee table disturbing | **thought** | that and was it the |
  |       and another name kidnapping tom | **thought** | that might come next certainly |
  |             why should he complain he | **thought** | as he stared out his |
@@ -448,7 +447,7 @@ Examples of weak obsessive emotion in Carol
 Examples of strong obsessive emotion in the Ripley series
 
  |               phrase before  |  keyword  |  phrase after |
- | --------------------------- |-------------| ------------------------------------|
+ | ---------------------------------- :|:------------- :|:---------------------------------|
  |   for a few minutes heloise | **thought** | he took it too seriously |
  |        it on his return tom | **thought** |  he turned left and walked |
  |        us for lunch i don't  | **think**  | so thank you dear enjoy |
@@ -552,6 +551,14 @@ a mix of words with positive and negative sentiments. It would be
 interesting to separate the different sentiments of obsession.
 
 # Sources
+
+[1] R. Shore. The Talented Ms Highsmith. url: https://www.theguardian.com/film/2000/jan/28/ crimebooks.
+[2] Every Man Is A Victim of the Female Caricature in Patricia Highsmith’s Little Tales of Misogyny. url: https://theopiatemagazine.com/2017/07/26/every-man-is-a-victim-of-the- female-caricature-in-patricia-highsmiths-little-tales-of-misogyny/.
+[3] WordSmith Tools. Definition of Keyness. url: https://lexically.net/downloads/version7/ HTML/keyness_definition.html.
+[4] M. Scott. “PC analysis of key words — And key key words”. In: System 25.2 (1997), pp. 233– 245. issn: 0346-251X. doi: https://doi.org/10.1016/S0346-251X(97)00011-0. url: https: //www.sciencedirect.com/science/article/pii/S0346251X97000110.
+[5] S. Mohammad. NRC Emotion Lexicon. url: https://saifmohammad.com/WebPages/NRC- Emotion-Lexicon.htm.
+[6] R. McDougall. The Many Faces of Patricia Highsmith. url: https://www.nytimes.com/2021/ 04/19/t-magazine/patricia-highsmith-talented-mr-ripley.html.
+[7] N. Chowdhury. Keyword in Context Special Issue Spring 2020. url: https : / / cpb - us - w2 . wpmucdn.com/people.smu.edu/dist/3/1174/files/2020/04/KWIC-Analysis-Guide-NC-1.pdf.
 
 # Appendix
 
