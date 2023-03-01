@@ -47,7 +47,7 @@ Claire Morgan, strikes out as an outlier in her works. *Carol* is
 Highsmith's only novel that centers on a theme of love and is drawn from
 her personal experiences. The characters in *Carol* are given a more
 explicit sexual existence and a happy ending which can be rarely seen in
-her other novels [@guardian]. However, *Carol* shares similar themes of
+her other novels [1]. However, *Carol* shares similar themes of
 obsession, vulnerability, and desire that seems to recur in Highsmith's
 works. In *Carol*, the readers experience the story through the
 protagonist, Therese Belivet, a young woman struggling to find her place
@@ -108,8 +108,7 @@ Calibre, an e-book management software. The raw text files were manually
 cleaned by removing the front matters and contents table. The text files
 were tokenized using the `tokens` function from `quanteda` library in R.
 
-The "Tokens" column in Table
-[1] reflects the token count after data
+The "Tokens" column in Table **1** reflects the token count after data
 cleaning. For Key Word In Context (KWIC) analysis, a separate subcorpus
 consisting only of five books in the Ripley series (*The Talented Mr.
 Ripley, Ripley Under Ground, Ripley's Game, The Boy Who Followed Ripley,
@@ -180,7 +179,7 @@ all obsessive words in the obsession dictionary.
 
 ## Keyness Analysis
 
-Table [2] shows the result of the keyness
+Table **2** shows the result of the keyness
 analysis with Carol subcorpus as the target corpus and Other subcorpus
 as the reference corpus. Out of the six key words with the highest
 keyness values, four were related to the names of the characters in the
@@ -200,7 +199,7 @@ about 1.5. This suggests that Patricia Highsmith used "she" and "her"
 about 2.8 times more frequently in *Carol* than her other published
 works.
 
-Table [3] shows the result of keyness analysis
+Table **3** shows the result of keyness analysis
 with Other subcorpus as the target corpus and Carol subcorpus as the
 reference corpus. Out of the six key words with the highest keyness
 values, two were related to the names of the characters in different
@@ -242,7 +241,7 @@ Table 3: Tokens with the highest keyness values in Other subcorpus when compared
 
 ## Lexicon-Based Analysis of Obsession
 
-Table [4] shows the obsession token count, total
+Table **4** shows the obsession token count, total
 tokens, and observed proportion (calculated by dividing obsession token
 count by total tokens) for every published novel and short story
 collection in the corpus. The obsession count ranged from 572 to 2028.
@@ -313,10 +312,9 @@ Table 4: Obsession token count, total tokens, and observed proportion for every 
 
 ## KWIC Analysis of Carol and the Ripley Series
 
-Table [5] shows the 15 most frequently appearing
+Table **5** shows the 15 most frequently appearing
 tokens related to obsession in the Carol subcorpus. The top four tokens
-were "thought", "think", "want", and "love". Table
-[6] shows 15 most frequently appearing
+were "thought", "think", "want", and "love". Table **6** shows 15 most frequently appearing
 tokens related to obsession in the Other subcorpus. The top four tokens
 related to obsession in the Other subcorpus were also "thought",
 "think", "want", and "love", in the same order of frequency as the Carol
@@ -325,9 +323,9 @@ subcorpus. Other words such as "happy", "wondered", "lost", "miss",
 word "murder" appeared 355 times in the Other subcorpus while it was not
 one of the most commonly occurring words in *Carol*.
 
-Table [7] shows the dispersion of "thought",
+Table **7** shows the dispersion of "thought",
 "think", "want" and "love" in all 116 texts. Looking at Juilland's D
-measure in Table [7], all four tokens had values close to 1,
+measure in Table **7**, all four tokens had values close to 1,
 signifying that they are evenly dispersed throughout all text. All four
 tokens had a deviation of proportions (DP) measure close to 0, which
 also signified that they are evenly dispersed throughout the texts. Out
@@ -336,24 +334,23 @@ the lowest Juilland's D value of 0.876 and the highest DP value of
 0.260. "Thought" was the most evenly dispersed token with the highest
 Juilland's D value of 0.958 and the lowest DP value of 0.098.
 
-Tables [8] to [11] show examples of phrases that had strong
+Tables **8** to **11** show examples of phrases that had strong
 or weak obsessive emotions in Carol and Other subcorpora for the four
-most frequent tokens related to obsession. In Table
-[8], it can be seen that the four words
+most frequent tokens related to obsession. In Table **8**, it can be seen that the four words
 "thought", "think", "want", and "love" appeared in sentences that
 display a strong obsessive emotion. The token "love" seemed to have an
 especially strong association with obsession. However, Table
-[9] shows that the four key words were also present in sentences with weak
+**9** shows that the four key words were also present in sentences with weak
 obsession emotion in Carol. For instance, the words "thought" and
 "think" appeared in sentences where the thought was casual, or in a
 dialogue without much emotion. The word "love" also appear in sentences
 with weak obsessive emotion, such as in a dialogue without much emotion.
 
-Similarly, Table [10] shows examples of phrases with the four
+Similarly, Table **10** shows examples of phrases with the four
 key words associated with a strong obsessive emotion for the Ripley
 series. The tokens "thought" and "think" had especially strong
 associations with obsession in the Ripley series. Table
-[11] shows that the four key words were also
+**11** shows that the four key words were also
 present in sentences with a weak obsessive emotion in the Ripley series.
 For instance, the words "thought" and "think" appeared in sentences
 where the thought was casual, or in a dialogue without much emotion. The
