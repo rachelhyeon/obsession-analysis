@@ -573,13 +573,13 @@ interesting to separate the different sentiments of obsession.
 
 [2] Every Man Is A Victim of the Female Caricature in Patricia Highsmith’s Little Tales of Misogyny. url: https://theopiatemagazine.com/2017/07/26/every-man-is-a-victim-of-the-female-caricature-in-patricia-highsmiths-little-tales-of-misogyny/.
 
-[3] WordSmith Tools. Definition of Keyness. url: https://lexically.net/downloads/version7/ HTML/keyness_definition.html.
+[3] WordSmith Tools. Definition of Keyness. url: https://lexically.net/downloads/version7/HTML/keyness_definition.html.
 
-[4] M. Scott. “PC analysis of key words — And key key words”. In: System 25.2 (1997), pp. 233– 245. issn: 0346-251X. doi: https://doi.org/10.1016/S0346-251X(97)00011-0. url: https: //www.sciencedirect.com/science/article/pii/S0346251X97000110.
+[4] M. Scott. “PC analysis of key words — And key key words”. In: System 25.2 (1997), pp. 233– 245. issn: 0346-251X. doi: https://doi.org/10.1016/S0346-251X(97)00011-0. url: https://www.sciencedirect.com/science/article/pii/S0346251X97000110.
 
 [5] S. Mohammad. NRC Emotion Lexicon. url: https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm.
 
-[6] R. McDougall. The Many Faces of Patricia Highsmith. url: https://www.nytimes.com/2021/ 04/19/t-magazine/patricia-highsmith-talented-mr-ripley.html.
+[6] R. McDougall. The Many Faces of Patricia Highsmith. url: https://www.nytimes.com/2021/04/19/t-magazine/patricia-highsmith-talented-mr-ripley.html.
 
 [7] N. Chowdhury. Keyword in Context Special Issue Spring 2020. url: https://cpb-us-w2.wpmucdn.com/people.smu.edu/dist/3/1174/files/2020/04/KWIC-Analysis-Guide-NC-1.pdf.
 
