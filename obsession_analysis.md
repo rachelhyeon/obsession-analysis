@@ -403,18 +403,19 @@ Obsessive word in Other by frequency
 Dispersion of four most frequent tokens related to obsession both
 Carol and Other subcorpora
 
-                      | phrase before  |  keyword   | phrase after |
- | ----------------------------------: | :-------------: | :--------------------------------- |
-  |   she was still beautiful therese  |**thought** | with a sudden pang of |
-   |         heard all around her she | **thought** | of carol over a thousand |
-   |         hurt now beyond what you  | **think** |  you can bear and if |
-   |                  if i miss you i  | **think**  | of your voice your hands |
-   |      a tense excitement made her |  **want**  |  to plunge headlong into it |
-   | carol couldn't and wouldn't even  | **want**  |  to see her again has |
-   |            felt for carol was it  | **love**  |  or wasn't it that she |
-   |         passed all the tests for  | **love**  |  and fitted all the descriptions |
-   |       she loved and would always  | **love**  |  oh in a different way |
-   |        therese closed her eyes i |  **love**  |  you carol said therese opened |
+| phrase before                    | keyword     | phrase after                    |
+|--------------------------------:|:-----------:|:-------------------------------|
+| she was still beautiful therese  | **thought** | with a sudden pang of           |
+| heard all around her she         | **thought** | of carol over a thousand        |
+| hurt now beyond what you         | **think**   | you can bear and if             |
+| if i miss you i                  | **think**   | of your voice your hands        |
+| a tense excitement made her      | **want**    | to plunge headlong into it      |
+| carol couldn't and wouldn't even | **want**    | to see her again has            |
+| felt for carol was it            | **love**    | or wasn't it that she           |
+| passed all the tests for         | **love**    | and fitted all the descriptions |
+| she loved and would always       | **love**    | oh in a different way           |
+| therese closed her eyes i        | **love**    | you carol said therese opened   |
+
 
 Examples of strong obsessive emotion in Carol
 
