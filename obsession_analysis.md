@@ -403,8 +403,8 @@ Obsessive word in Other by frequency
 Dispersion of four most frequent tokens related to obsession both
 Carol and Other subcorpora
 
-                      | phrase before  |  keyword   | phrase after|
- | ---------------------------------- :|:------------- :|:---------------------------------|
+                      | phrase before  |  keyword   | phrase after |
+ | ----------------------------------: | :-------------: | :--------------------------------- |
   |   she was still beautiful therese  |**thought** | with a sudden pang of |
    |         heard all around her she | **thought** | of carol over a thousand |
    |         hurt now beyond what you  | **think** |  you can bear and if |
