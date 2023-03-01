@@ -214,6 +214,9 @@ frequency of "police" (LL = 145.45, LR = 7.21) is 0 in *Carol*, which
 suggests that *Carol* has a weaker theme related to crime compared to
 the rest of her works.
 
+<div align="center">
+
+Table 2: Tokens with the highest keyness values in Carol subcorpus when compared to Other subcorpus
 
   | Token |  LL  |    LR |  PV  | AF_Tar  | AF_Ref  | Per_10.6_Tar  | Per_10.6_Ref  | DP_Tar  | DP_Ref |
   ---------| ---------| -------| ----| -------- | -------| -------------- |-------------- |--------| --------|
@@ -224,8 +227,7 @@ the rest of her works.
 |  abby     |   1279.64  | 13.36 |   0  |    191   |     0     |   2119.07       |    0.00    |    0    |   NA |
 |  carol's   |  1176.19  |  8.76 |   0    |  189    |   12     |   2096.88       |    4.84     |   0   |  0.96 |
 
- Tokens with the highest keyness values in Carol subcorpus when
- compared to Other subcorpus
+Table 3: Tokens with the highest keyness values in Other subcorpus when compared to Carol subcorpus
 
   | Token |  LL  |    LR |  PV  | AF_Tar  | AF_Ref  | Per_10.6_Tar  | Per_10.6_Ref  | DP_Tar  | DP_Ref |
  | --------| --------- |------| ---- |-------- |-------- |-------------- |--------------| -------- |--------|
@@ -236,8 +238,7 @@ the rest of her works.
 |  arthur   |   172.67 |  7.46  |  0   |  2417   |     0     |    975.18       |    0.00   |  0.95    |   NA |
 |  police    |  145.45 |  7.21  |  0   |  2036    |    0     |    821.46       |    0.00   |  0.32    |   NA |
 
-Tokens with the highest keyness values in Other subcorpus when
-  compared to Carol subcorpus
+</div>
 
 ## Lexicon-Based Analysis of Obsession
 
@@ -265,11 +266,15 @@ for Carol and Other subcorpora. The log ratio was 0.23, which means that
 the observed proportion of obsession for Carol is about 1.17 times
 greater than the observed proportion for the Other subcorpus.
 
-![Distribution of observed proportion of tokens related to obsession for
+![Figure 1: Distribution of observed proportion of tokens related to obsession for
 116 texts and comparison of mean observed proportion of obsession
 between Carol and Other subcorpora. Count represents the number of texts
 with a certain value of observed proportion of
 obsession.](./images/histogram-1.pdf)
+
+<div align="center">
+
+Table 4: Obsession token count, total tokens, and observed proportion for every publication
 
 | Texts                                       | Obsession Count | Total Tokens | Observed Proportion |
 |---------------------------------------------|-----------------|--------------|---------------------|
@@ -304,6 +309,7 @@ obsession.](./images/histogram-1.pdf)
 | Two Faces of January, The                   | 943             | 87787        | 1.07                |
 | Price of Salt, The (or Carol)               | 1283            | 90134        | 1.42                |
 
+</div>
 
 ## KWIC Analysis of Carol and the Ripley Series
 
@@ -355,6 +361,9 @@ words "want" and "love" also appeared in sentences with a weak obsessive
 emotion, especially in a dialogue or as part of the formula to end a
 letter ("With love").
 
+<div align="center">
+
+Table 5: Obsessive word in Other by frequency
 
 | Feature   |   Frequency |
 |--------------|----------|
@@ -374,7 +383,7 @@ letter ("With love").
 | strong         |     16 |
 | anger           |    15 |
 
-Obsessive word in Other by frequency
+Table 6: Obsessive word in Other by frequency
 
 | Feature    | Frequency |
 |------------|-----------|
@@ -394,7 +403,8 @@ Obsessive word in Other by frequency
 | wished     | 329       |
 | angry      | 321       |
 
-Obsessive word in Other by frequency
+Table 7: Dispersion of four most frequent tokens related to obsession both
+Carol and Other subcorpora
 
  | Token  |       AF |  Per_10.6  | Carrolls_D2 |  Rosengrens_S |  Lynes_D3  |    DC  | Juillands_D   |   DP  | DP_norm |
  | --------- |------| ---------- |-------------| -------------- |----------| ------- |------------- |------- |---------|
@@ -403,8 +413,7 @@ Obsessive word in Other by frequency
  | want     |   3107  | 1209.586     |    0.766   |       0.952   |   0.218  | 0.496    |     0.941 |  0.129  |   0.129 |
  | love      |  1066   | 415.004       |  0.757     |     0.850   |   0.122 |  0.438     |    0.876 |  0.260  |   0.260 |
 
-Dispersion of four most frequent tokens related to obsession both
-Carol and Other subcorpora
+Table 8: Examples of strong obsessive emotion in Carol
 
 | phrase before                    | keyword     | phrase after                    |
 |--------------------------------:|:-----------:|:-------------------------------|
@@ -420,7 +429,8 @@ Carol and Other subcorpora
 | therese closed her eyes i        | **love**    | you carol said therese opened   |
 
 
-Examples of strong obsessive emotion in Carol
+Table 9: Examples of weak obsessive emotion in Carol
+
 
 | phrase before                 | keyword     | phrase after                   |
 |-----------------------------:|:-----------:|:------------------------------|
@@ -433,7 +443,9 @@ Examples of strong obsessive emotion in Carol
 | of rye how nice i'd love      | **love**    | one therese carol got up       |
 | when you are alone i          | **love**    | this town because it all       |
 
-Examples of weak obsessive emotion in Carol
+
+Table 10: Examples of strong obsessive emotion in the Ripley series
+
 
 | phrase before                       | keyword     | phrase after                   |
 |-----------------------------------:|:-----------:|:------------------------------|
@@ -448,7 +460,7 @@ Examples of weak obsessive emotion in Carol
 | now ballads which he didn't         | **love**    | as much as he loved            |
 | and Marge loving it She'd           | **love**    | it even if he tortured         |
 
-Examples of strong obsessive emotion in the Ripley series
+Table 11: Examples of weak obsessive emotion in the Ripley series
 
 | phrase before             | keyword     | phrase after                       |
 |-------------------------:|:-----------:|:----------------------------------|
@@ -462,7 +474,8 @@ Examples of strong obsessive emotion in the Ripley series
 | and keep me posted with   | **love**    | dickie tom read it over            |
 | had said to frank you'll  | **love**    | the berlin-tegel airport tom liked |
 
-Examples of weak obsessive emotion in the Ripley series
+
+</div>
 
 # Discussion
 
