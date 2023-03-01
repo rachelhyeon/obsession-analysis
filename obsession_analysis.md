@@ -91,7 +91,9 @@ The corpus was divided into two subcorpora, the first subcorpus named
 times more tokens in the Other subcorpus than Carol subcorpus. In total,
 there were 2,568,653 tokens in both subcorpora.
 
-<center>
+<div align="center">
+
+Table 1: Corpus Composition of Carol and Other subcorpora
 
   | Subcorpus | Publications | Texts | Tokens |
   |:-----------------|:--------------:|:-------:|---------:|
@@ -99,9 +101,7 @@ there were 2,568,653 tokens in both subcorpora.
   | Other          |       29      |   115  |   2478519 |
   | Total           |        30      |   116  |   2568653 |                                
 
-Table 1: Corpus Composition of Carol and Other subcorpora
-
-</center>
+</div>
 
 The data was gathered by converting EPUB files to text files using
 Calibre, an e-book management software. The raw text files were manually
