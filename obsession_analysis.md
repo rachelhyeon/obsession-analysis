@@ -1,6 +1,7 @@
 Obsession in the Works of Patricia Highsmith
 ================
 Myung Kyung (Rachel) Hyeon
+
 2022-12-12
 
 # Abstract
@@ -371,7 +372,7 @@ letter ("With love").
 | strong         |     16 |
 | anger           |    15 |
 
-  : Obsessive word in Other by frequency
+Obsessive word in Other by frequency
 
 | Feature    | Frequency |
 |------------|-----------|
@@ -393,81 +394,72 @@ letter ("With love").
 
 Obsessive word in Other by frequency
 
-  Token         AF   Per_10.6   Carrolls_D2   Rosengrens_S   Lynes_D3      DC   Juillands_D      DP   DP_norm
-  --------- ------ ---------- ------------- -------------- ---------- ------- ------------- ------- ---------
-  thought     6510   2534.408         0.791          0.978      0.314   0.561         0.958   0.098     0.098
-  think       4550   1771.361         0.767          0.954      0.243   0.499         0.942   0.123     0.124
-  want        3107   1209.586         0.766          0.952      0.218   0.496         0.941   0.129     0.129
-  love        1066    415.004         0.757          0.850      0.122   0.438         0.876   0.260     0.260
+ | Token  |       AF |  Per_10.6  | Carrolls_D2 |  Rosengrens_S |  Lynes_D3  |    DC  | Juillands_D   |   DP  | DP_norm |
+ | --------- |------| ---------- |-------------| -------------- |----------| ------- |------------- |------- |---------|
+ | thought  |   6510  | 2534.408    |     0.791  |        0.978   |   0.314 |   0.561   |      0.958 |  0.098  |   0.098 |
+ | think     |  4550  | 1771.361      |   0.767    |      0.954    |  0.243  | 0.499     |    0.942  | 0.123  |   0.124 |
+ | want     |   3107  | 1209.586     |    0.766   |       0.952   |   0.218  | 0.496    |     0.941 |  0.129  |   0.129 |
+ | love      |  1066   | 415.004       |  0.757     |     0.850   |   0.122 |  0.438     |    0.876 |  0.260  |   0.260 |
 
-  : Dispersion of four most frequent tokens related to obsession both
-  Carol and Other subcorpora
-:::
+Dispersion of four most frequent tokens related to obsession both
+Carol and Other subcorpora
 
-::: {#kwic-strong-carol}
-                       phrase before    keyword    phrase after
-  ---------------------------------- ------------- ---------------------------------
-     she was still beautiful therese  **thought**  with a sudden pang of
-            heard all around her she  **thought**  of carol over a thousand
-            hurt now beyond what you   **think**   you can bear and if
-                     if i miss you i   **think**   of your voice your hands
-         a tense excitement made her   **want**    to plunge headlong into it
-    carol couldn't and wouldn't even   **want**    to see her again has
-               felt for carol was it   **love**    or wasn't it that she
-            passed all the tests for   **love**    and fitted all the descriptions
-          she loved and would always   **love**    oh in a different way
-           therese closed her eyes i   **love**    you carol said therese opened
+                      | phrase before  |  keyword   | phrase after|
+ | ---------------------------------- |------------- |---------------------------------|
+  |   she was still beautiful therese  |**thought** | with a sudden pang of |
+   |         heard all around her she | **thought** | of carol over a thousand |
+   |         hurt now beyond what you  | **think** |  you can bear and if |
+   |                  if i miss you i   **think**  | of your voice your hands |
+   |      a tense excitement made her |  **want**  |  to plunge headlong into it |
+   | carol couldn't and wouldn't even  | **want**  |  to see her again has |
+   |            felt for carol was it  | **love**  |  or wasn't it that she |
+   |         passed all the tests for  | **love**  |  and fitted all the descriptions |
+   |       she loved and would always  | **love**  |  oh in a different way |
+   |        therese closed her eyes i |  **love**  |  you carol said therese opened |
 
-  : Examples of strong obsessive emotion in Carol
-:::
+Examples of strong obsessive emotion in Carol
 
-::: {#kwic-weak-carol}
-                    phrase before    keyword    phrase after
-  ------------------------------- ------------- --------------------------------
-           show her the dolls she  **thought**  the child might like she
-                  i was so near i  **thought**  i'd come up he said
-          book of english verse i   **think**   i left it on top
-         women's room who does he   **think**   he is mr frankenberg yoo-hoo
-    the sweater department if you   **want**    to ask me anything the
-       only half finished i don't   **want**    my coffee therese said because
-         of rye how nice i'd love   **love**    one therese carol got up
-             when you are alone i   **love**    this town because it all
+|                    phrase before  |  keyword   | phrase after |
+|  ------------------------------- |------------- |--------------------------------|
+ |          show her the dolls she | **thought** | the child might like she |
+ |                 i was so near i | **thought** | i'd come up he said |
+ |         book of english verse i |  **think** |  i left it on top |
+ |        women's room who does he  | **think**  | he is mr frankenberg yoo-hoo |
+ |   the sweater department if you |  **want** |   to ask me anything the |
+ |      only half finished i don't  | **want**  |  my coffee therese said because |
+  |       of rye how nice i'd love |  **love**   | one therese carol got up |
+  |           when you are alone i  | **love**  |  this town because it all |
 
-  : Examples of weak obsessive emotion in Carol
-:::
+Examples of weak obsessive emotion in Carol
 
-::: {#kwic-strong-ripley}
-                          phrase before    keyword    phrase after
-  ------------------------------------- ------------- --------------------------------
-    towards the coffee table disturbing  **thought**  that and was it the
-        and another name kidnapping tom  **thought**  that might come next certainly
-              why should he complain he  **thought**  as he stared out his
-              police it was suicidal to   **think**   of leaving the country as
-                  he didn't want her to   **think**   he hadn't claimed it imagine
-          more enthusiastic he began to   **think**   of how the water but
-                  for a while he didn't   **want**    to be frank pierson so
-                had done them he didn't   **want**    to be a murderer sometimes
-            now ballads which he didn't   **love**    as much as he loved
-              and Marge loving it She'd   **love**    it even if he tortured
+ |                         phrase before |   keyword |   phrase after |
+ | -------------------------------------| ------------- |--------------------------------|
+ |   towards the coffee table disturbing | **thought** | that and was it the |
+ |       and another name kidnapping tom | **thought** | that might come next certainly |
+ |             why should he complain he | **thought** | as he stared out his |
+ |             police it was suicidal to  | **think** |  of leaving the country as |
+ |                 he didn't want her to  | **think**  | he hadn't claimed it imagine |
+ |         more enthusiastic he began to  | **think** |  of how the water but |
+ |                 for a while he didn't |  **want**  |  to be frank pierson so |
+ |               had done them he didn't  | **want**  |  to be a murderer sometimes |
+ |           now ballads which he didn't |  **love**  |  as much as he loved |
+ |             and Marge loving it She'd  | **love**  |  it even if he tortured |
 
-  : Examples of strong obsessive emotion in the Ripley series
-:::
+Examples of strong obsessive emotion in the Ripley series
 
-::: {#kwic-weak-ripley}
-                phrase before    keyword    phrase after
-  --------------------------- ------------- ------------------------------------
-    for a few minutes heloise  **thought**  he took it too seriously
-         it on his return tom  **thought**  he turned left and walked
-         us for lunch i don't   **think**   so thank you dear enjoy
-        i'd drive you i don't   **think**   you can reach teresa tonight
-    for lunch at l'aigle noir   **want**    to join us for lunch
-       dinner at eight if you   **want**    to join us come down
-     asked quietly are you in   **love**    with marge dickie no but
-      and keep me posted with   **love**    dickie tom read it over
-     had said to frank you'll   **love**    the berlin-tegel airport tom liked
+ |               phrase before  |  keyword  |  phrase after |
+ | --------------------------- |-------------| ------------------------------------|
+ |   for a few minutes heloise | **thought** | he took it too seriously |
+ |        it on his return tom | **thought** |  he turned left and walked |
+ |        us for lunch i don't  | **think**  | so thank you dear enjoy |
+ |       i'd drive you i don't  | **think** |  you can reach teresa tonight |
+ |   for lunch at l'aigle noir |  **want**  |  to join us for lunch |
+ |      dinner at eight if you  | **want** |   to join us come down |
+ |    asked quietly are you in  | **love**  |  with marge dickie no but |
+ |     and keep me posted with | **love**  |  dickie tom read it over |
+ |    had said to frank you'll |  **love**  |  the berlin-tegel airport tom liked |
 
-  : Examples of weak obsessive emotion in the Ripley series
-:::
+Examples of weak obsessive emotion in the Ripley series
 
 # Discussion
 
