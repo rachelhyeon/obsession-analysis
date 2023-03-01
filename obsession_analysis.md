@@ -419,45 +419,45 @@ Carol and Other subcorpora
 
 Examples of strong obsessive emotion in Carol
 
-|                    phrase before  |  keyword   | phrase after |
- | ---------------------------------- :|:------------- :|:---------------------------------|
- |          show her the dolls she | **thought** | the child might like she |
- |                 i was so near i | **thought** | i'd come up he said |
- |         book of english verse i |  **think** |  i left it on top |
- |        women's room who does he  | **think**  | he is mr frankenberg yoo-hoo |
- |   the sweater department if you |  **want** |   to ask me anything the |
- |      only half finished i don't  | **want**  |  my coffee therese said because |
-  |       of rye how nice i'd love |  **love**   | one therese carol got up |
-  |           when you are alone i  | **love**  |  this town because it all |
+| phrase before                 | keyword     | phrase after                   |
+|-----------------------------:|:-----------:|:------------------------------|
+| show her the dolls she        | **thought** | the child might like she       |
+| i was so near i               | **thought** | i'd come up he said            |
+| book of english verse i       | **think**   | i left it on top               |
+| women's room who does he      | **think**   | he is mr frankenberg yoo-hoo   |
+| the sweater department if you | **want**    | to ask me anything the         |
+| only half finished i don't    | **want**    | my coffee therese said because |
+| of rye how nice i'd love      | **love**    | one therese carol got up       |
+| when you are alone i          | **love**    | this town because it all       |
 
 Examples of weak obsessive emotion in Carol
 
- |                         phrase before |   keyword |   phrase after |
- | ---------------------------------- :|:------------- :|:---------------------------------|
- |   towards the coffee table disturbing | **thought** | that and was it the |
- |       and another name kidnapping tom | **thought** | that might come next certainly |
- |             why should he complain he | **thought** | as he stared out his |
- |             police it was suicidal to  | **think** |  of leaving the country as |
- |                 he didn't want her to  | **think**  | he hadn't claimed it imagine |
- |         more enthusiastic he began to  | **think** |  of how the water but |
- |                 for a while he didn't |  **want**  |  to be frank pierson so |
- |               had done them he didn't  | **want**  |  to be a murderer sometimes |
- |           now ballads which he didn't |  **love**  |  as much as he loved |
- |             and Marge loving it She'd  | **love**  |  it even if he tortured |
+| phrase before                       | keyword     | phrase after                   |
+|-----------------------------------:|:-----------:|:------------------------------|
+| towards the coffee table disturbing | **thought** | that and was it the            |
+| and another name kidnapping tom     | **thought** | that might come next certainly |
+| why should he complain he           | **thought** | as he stared out his           |
+| police it was suicidal to           | **think**   | of leaving the country as      |
+| he didn't want her to               | **think**   | he hadn't claimed it imagine   |
+| more enthusiastic he began to       | **think**   | of how the water but           |
+| for a while he didn't               | **want**    | to be frank pierson so         |
+| had done them he didn't             | **want**    | to be a murderer sometimes     |
+| now ballads which he didn't         | **love**    | as much as he loved            |
+| and Marge loving it She'd           | **love**    | it even if he tortured         |
 
 Examples of strong obsessive emotion in the Ripley series
 
- |               phrase before  |  keyword  |  phrase after |
- | ---------------------------------- :|:------------- :|:---------------------------------|
- |   for a few minutes heloise | **thought** | he took it too seriously |
- |        it on his return tom | **thought** |  he turned left and walked |
- |        us for lunch i don't  | **think**  | so thank you dear enjoy |
- |       i'd drive you i don't  | **think** |  you can reach teresa tonight |
- |   for lunch at l'aigle noir |  **want**  |  to join us for lunch |
- |      dinner at eight if you  | **want** |   to join us come down |
- |    asked quietly are you in  | **love**  |  with marge dickie no but |
- |     and keep me posted with | **love**  |  dickie tom read it over |
- |    had said to frank you'll |  **love**  |  the berlin-tegel airport tom liked |
+| phrase before             | keyword     | phrase after                       |
+|-------------------------:|:-----------:|:----------------------------------|
+| for a few minutes heloise | **thought** | he took it too seriously           |
+| it on his return tom      | **thought** | he turned left and walked          |
+| us for lunch i don't      | **think**   | so thank you dear enjoy            |
+| i'd drive you i don't     | **think**   | you can reach teresa tonight       |
+| for lunch at l'aigle noir | **want**    | to join us for lunch               |
+| dinner at eight if you    | **want**    | to join us come down               |
+| asked quietly are you in  | **love**    | with marge dickie no but           |
+| and keep me posted with   | **love**    | dickie tom read it over            |
+| had said to frank you'll  | **love**    | the berlin-tegel airport tom liked |
 
 Examples of weak obsessive emotion in the Ripley series
 
