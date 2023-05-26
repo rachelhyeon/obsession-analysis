@@ -64,7 +64,7 @@ subcorpus consisting only of *Carol* and the other consisting of all her
 remaining works, will be compared using a log-likelihood (LL) test to
 report whether the differences between the two subcorpora are
 statistically significant. Key Word In Context (KWIC) analysis will be
-conducted to reveal how obsessive words are used in *Carol* and the
+conducted to reveal how the obsessive words are used in *Carol* and the
 remaining works.
 
 # Data
