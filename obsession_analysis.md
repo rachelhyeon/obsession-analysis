@@ -86,20 +86,19 @@ publications.
 
 The corpus was divided into two subcorpora, the first subcorpus named
 "Carol" containing the novel *Carol*, and the second subcorpus named
-"Other" containing all other 29 publications. Table
-[1] shows that there were approximately 27
-times more tokens in the Other subcorpus than Carol subcorpus. In total,
-there were 2,568,653 tokens in both subcorpora.
+"Other" containing all other 29 publications. **Table 1** shows that 
+there were approximately 27 times more tokens in the Other subcorpus than
+Carol subcorpus. In total, there were 2,568,653 tokens in both subcorpora.
 
 <div align="center">
 
-Table 1: Corpus Composition of Carol and Other subcorpora
+**Table 1:** Corpus Composition of Carol and Other subcorpora
 
-  | Subcorpus | Publications | Texts | Tokens |
-  |:-----------------|:--------------:|:-------:|---------:|
-  | Carol           |     1        |   1     |   90134 |
-  | Other          |       29      |   115  |   2478519 |
-  | Total           |        30      |   116  |   2568653 |                                
+  | Subcorpus | Publications | Texts |  Tokens |
+  |:----------|:------------:|:-----:|--------:|
+  | Carol     |      1       |   1   |   90134 |
+  | Other     |      29      |  115  | 2478519 |
+  | Total     |      30      |  116  | 2568653 |                                
 
 </div>
 
@@ -108,7 +107,7 @@ Calibre, an e-book management software. The raw text files were manually
 cleaned by removing the front matters and contents table. The text files
 were tokenized using the `tokens` function from `quanteda` library in R.
 
-The "Tokens" column in Table **1** reflects the token count after data
+The "Tokens" column in **Table 1** reflects the token count after data
 cleaning. For Key Word In Context (KWIC) analysis, a separate subcorpus
 consisting only of five books in the Ripley series (*The Talented Mr.
 Ripley, Ripley Under Ground, Ripley's Game, The Boy Who Followed Ripley,
@@ -179,7 +178,7 @@ all obsessive words in the obsession dictionary.
 
 ## Keyness Analysis
 
-Table **2** shows the result of the keyness
+**Table 2** shows the result of the keyness
 analysis with Carol subcorpus as the target corpus and Other subcorpus
 as the reference corpus. Out of the six key words with the highest
 keyness values, four were related to the names of the characters in the
@@ -199,7 +198,7 @@ about 1.5. This suggests that Patricia Highsmith used "she" and "her"
 about 2.8 times more frequently in *Carol* than her other published
 works.
 
-Table **3** shows the result of keyness analysis
+**Table 3** shows the result of keyness analysis
 with Other subcorpus as the target corpus and Carol subcorpus as the
 reference corpus. Out of the six key words with the highest keyness
 values, two were related to the names of the characters in different
@@ -215,33 +214,33 @@ the rest of her works.
 
 <div align="center">
 
-Table 2: Tokens with the highest keyness values in Carol subcorpus when compared to Other subcorpus
+**Table 2:** Tokens with the highest keyness values in Carol subcorpus when compared to Other subcorpus
 
-  | Token |  LL  |    LR |  PV  | AF_Tar  | AF_Ref  | Per_10.6_Tar  | Per_10.6_Ref  | DP_Tar  | DP_Ref |
-  ---------| ---------| -------| ----| -------- | -------| -------------- |-------------- |--------| --------|
-| therese  |   8889.52  | 11.10  |  0   |  1354 |      17    |   15022.08       |    6.86     |   0  |   0.96 |
-|  carol     |  8128.83  |  8.84  |  0   |  1302   |    78      | 14445.16      |    31.47      |  0  |   0.93
-|  she       |  2121.39  |  1.64  |  0   |  2461  |  21782    |   27303.79    |    8788.33    |    0  |   0.26  |
-|  her        | 1618.23   | 1.52  |  0    | 2129  |  20458    |   23620.39    |    8254.14      |  0   |  0.23 |
-|  abby     |   1279.64  | 13.36 |   0  |    191   |     0     |   2119.07       |    0.00    |    0    |   NA |
-|  carol's   |  1176.19  |  8.76 |   0    |  189    |   12     |   2096.88       |    4.84     |   0   |  0.96 |
+| Token   | LL      | LR    | PV | AF_Tar | AF_Ref | Per_10.6_Tar | Per_10.6_Ref | DP_Tar | DP_Ref |
+|---------|---------|-------|----|--------|--------|--------------|--------------|--------|--------|
+| therese | 8889.52 | 11.10 | 0  | 1354   | 17     | 15022.08     | 6.86         | 0      | 0.96   |
+| carol   | 8128.83 | 8.84  | 0  | 1302   | 78     | 14445.16     | 31.47        | 0      | 0.93   |
+| she     | 2121.39 | 1.64  | 0  | 2461   | 21782  | 27303.79     | 8788.33      | 0      | 0.26   |
+| her     | 1618.23 | 1.52  | 0  | 2129   | 20458  | 23620.39     | 8254.14      | 0      | 0.23   |
+| abby    | 1279.64 | 13.36 | 0  | 191    | 0      | 2119.07      | 0.00         | 0      | NA     |
+| carol's | 1176.19 | 8.76  | 0  | 189    | 12     | 2096.88      | 4.84         | 0      | 0.96   |
 
-Table 3: Tokens with the highest keyness values in Other subcorpus when compared to Carol subcorpus
+**Table 3:** Tokens with the highest keyness values in Other subcorpus when compared to Carol subcorpus
 
-  | Token |  LL  |    LR |  PV  | AF_Tar  | AF_Ref  | Per_10.6_Tar  | Per_10.6_Ref  | DP_Tar  | DP_Ref |
- | --------| --------- |------| ---- |-------- |-------- |-------------- |--------------| -------- |--------|
-|  he      |   1492.51 |  1.91 |   0  |  55315  |    537   |    22317.82   |     5957.80   |  0.14    |    0 |
-|  his      |   925.60  | 1.94  |  0  |  33504   |   317    |   13517.78    |    3516.99   |  0.12    |    0   |
-|  tom     |    736.14 |  7.60  |  0  |  10653   |     2     |   4298.14      |    22.19   |  0.80   |     0    |
-|  him      |   336.52  | 1.46  |  0  |  17611  |    232   |     7105.47    |    2573.95  |   0.17   |     0  |
-|  arthur   |   172.67 |  7.46  |  0   |  2417   |     0     |    975.18       |    0.00   |  0.95    |   NA |
-|  police    |  145.45 |  7.21  |  0   |  2036    |    0     |    821.46       |    0.00   |  0.32    |   NA |
+| Token  | LL      | LR   | PV | AF_Tar | AF_Ref | Per_10.6_Tar | Per_10.6_Ref | DP_Tar | DP_Ref |
+|--------|---------|------|----|--------|--------|--------------|--------------|--------|--------|
+| he     | 1492.51 | 1.91 | 0  | 55315  | 537    | 22317.82     | 5957.80      | 0.14   | 0      |
+| his    | 925.60  | 1.94 | 0  | 33504  | 317    | 13517.78     | 3516.99      | 0.12   | 0      |
+| tom    | 736.14  | 7.60 | 0  | 10653  | 2      | 4298.14      | 22.19        | 0.80   | 0      |
+| him    | 336.52  | 1.46 | 0  | 17611  | 232    | 7105.47      | 2573.95      | 0.17   | 0      |
+| arthur | 172.67  | 7.46 | 0  | 2417   | 0      | 975.18       | 0.00         | 0.95   | NA     |
+| police | 145.45  | 7.21 | 0  | 2036   | 0      | 821.46       | 0.00         | 0.32   | NA     |
 
 </div>
 
 ## Lexicon-Based Analysis of Obsession
 
-Table **4** shows the obsession token count, total
+**Table 4** shows the obsession token count, total
 tokens, and observed proportion (calculated by dividing obsession token
 count by total tokens) for every published novel and short story
 collection in the corpus. The obsession count ranged from 572 to 2028.
@@ -273,7 +272,7 @@ obsession.](./images/histogram-1.pdf)
 
 <div align="center">
 
-Table 4: Obsession token count, total tokens, and observed proportion for every publication
+**Table 4:** Obsession token count, total tokens, and observed proportion for every publication
 
 | Texts                                       | Obsession Count | Total Tokens | Observed Proportion |
 |---------------------------------------------|-----------------|--------------|---------------------|
@@ -312,9 +311,9 @@ Table 4: Obsession token count, total tokens, and observed proportion for every 
 
 ## KWIC Analysis of Carol and the Ripley Series
 
-Table **5** shows the 15 most frequently appearing
+**Table 5** shows the 15 most frequently appearing
 tokens related to obsession in the Carol subcorpus. The top four tokens
-were "thought", "think", "want", and "love". Table **6** shows 15 most frequently appearing
+were "thought", "think", "want", and "love". **Table 6** shows 15 most frequently appearing
 tokens related to obsession in the Other subcorpus. The top four tokens
 related to obsession in the Other subcorpus were also "thought",
 "think", "want", and "love", in the same order of frequency as the Carol
@@ -323,9 +322,9 @@ subcorpus. Other words such as "happy", "wondered", "lost", "miss",
 word "murder" appeared 355 times in the Other subcorpus while it was not
 one of the most commonly occurring words in *Carol*.
 
-Table **7** shows the dispersion of "thought",
+**Table 7** shows the dispersion of "thought",
 "think", "want" and "love" in all 116 texts. Looking at Juilland's D
-measure in Table **7**, all four tokens had values close to 1,
+measure in **Table 7**, all four tokens had values close to 1,
 signifying that they are evenly dispersed throughout all text. All four
 tokens had a deviation of proportions (DP) measure close to 0, which
 also signified that they are evenly dispersed throughout the texts. Out
@@ -334,23 +333,23 @@ the lowest Juilland's D value of 0.876 and the highest DP value of
 0.260. "Thought" was the most evenly dispersed token with the highest
 Juilland's D value of 0.958 and the lowest DP value of 0.098.
 
-Tables **8** to **11** show examples of phrases that had strong
+**Tables 8 to 11** show examples of phrases that had strong
 or weak obsessive emotions in Carol and Other subcorpora for the four
-most frequent tokens related to obsession. In Table **8**, it can be seen that the four words
+most frequent tokens related to obsession. In **Table 8**, it can be seen that the four words
 "thought", "think", "want", and "love" appeared in sentences that
 display a strong obsessive emotion. The token "love" seemed to have an
-especially strong association with obsession. However, Table
-**9** shows that the four key words were also present in sentences with weak
+especially strong association with obsession. However, **Table 9**
+shows that the four key words were also present in sentences with weak
 obsession emotion in Carol. For instance, the words "thought" and
 "think" appeared in sentences where the thought was casual, or in a
 dialogue without much emotion. The word "love" also appear in sentences
 with weak obsessive emotion, such as in a dialogue without much emotion.
 
-Similarly, Table **10** shows examples of phrases with the four
+Similarly, **Table 10** shows examples of phrases with the four
 key words associated with a strong obsessive emotion for the Ripley
 series. The tokens "thought" and "think" had especially strong
-associations with obsession in the Ripley series. Table
-**11** shows that the four key words were also
+associations with obsession in the Ripley series. **Table 11** 
+shows that the four key words were also
 present in sentences with a weak obsessive emotion in the Ripley series.
 For instance, the words "thought" and "think" appeared in sentences
 where the thought was casual, or in a dialogue without much emotion. The
@@ -360,27 +359,27 @@ letter ("With love").
 
 <div align="center">
 
-Table 5: Obsessive word in Other by frequency
+**Table 5:** Obsessive word in Other by frequency
 
-| Feature   |   Frequency |
-|--------------|----------|
-| thought     |       280 |
-| think          |    189 |
-| want          |     170 |
-| love         |       92 |
-| of              |    45 |
-| miss          |      41 |
-| happy          |     34 |
-| wondered    |        29 |
-| loved          |     27 |
-| lost          |      20 |
-| wish         |       19 |
-| wished      |        17 |
-| pleasure    |        17 |
-| strong         |     16 |
-| anger           |    15 |
+| Feature  | Frequency |
+|----------|-----------|
+| thought  | 280       |
+| think    | 189       |
+| want     | 170       |
+| love     | 92        |
+| of       | 45        |
+| miss     | 41        |
+| happy    | 34        |
+| wondered | 29        |
+| loved    | 27        |
+| lost     | 20        |
+| wish     | 19        |
+| wished   | 17        |
+| pleasure | 17        |
+| strong   | 16        |
+| anger    | 15        |
 
-Table 6: Obsessive word in Other by frequency
+**Table 6:** Obsessive word in Other by frequency
 
 | Feature    | Frequency |
 |------------|-----------|
@@ -400,76 +399,74 @@ Table 6: Obsessive word in Other by frequency
 | wished     | 329       |
 | angry      | 321       |
 
-Table 7: Dispersion of four most frequent tokens related to obsession both
+**Table 7:** Dispersion of four most frequent tokens related to obsession both
 Carol and Other subcorpora
 
- | Token  |       AF |  Per_10.6  | Carrolls_D2 |  Rosengrens_S |  Lynes_D3  |    DC  | Juillands_D   |   DP  | DP_norm |
- | --------- |------| ---------- |-------------| -------------- |----------| ------- |------------- |------- |---------|
- | thought  |   6510  | 2534.408    |     0.791  |        0.978   |   0.314 |   0.561   |      0.958 |  0.098  |   0.098 |
- | think     |  4550  | 1771.361      |   0.767    |      0.954    |  0.243  | 0.499     |    0.942  | 0.123  |   0.124 |
- | want     |   3107  | 1209.586     |    0.766   |       0.952   |   0.218  | 0.496    |     0.941 |  0.129  |   0.129 |
- | love      |  1066   | 415.004       |  0.757     |     0.850   |   0.122 |  0.438     |    0.876 |  0.260  |   0.260 |
+ | Token   | AF   | Per_10.6 | Carrolls_D2 | Rosengrens_S | Lynes_D3 | DC    | Juillands_D | DP    | DP_norm |
+ |---------|------|----------|-------------|--------------|----------|-------|-------------|-------|---------|
+ | thought | 6510 | 2534.408 | 0.791       | 0.978        | 0.314    | 0.561 | 0.958       | 0.098 | 0.098   |
+ | think   | 4550 | 1771.361 | 0.767       | 0.954        | 0.243    | 0.499 | 0.942       | 0.123 | 0.124   |
+ | want    | 3107 | 1209.586 | 0.766       | 0.952        | 0.218    | 0.496 | 0.941       | 0.129 | 0.129   |
+ | love    | 1066 | 415.004  | 0.757       | 0.850        | 0.122    | 0.438 | 0.876       | 0.260 | 0.260   |
 
-Table 8: Examples of strong obsessive emotion in Carol
+**Table 8:** Examples of strong obsessive emotion in Carol
 
-| phrase before                    | keyword     | phrase after                    |
-|--------------------------------:|:-----------:|:-------------------------------|
-| she was still beautiful therese  | **thought** | with a sudden pang of           |
-| heard all around her she         | **thought** | of carol over a thousand        |
-| hurt now beyond what you         | **think**   | you can bear and if             |
-| if i miss you i                  | **think**   | of your voice your hands        |
-| a tense excitement made her      | **want**    | to plunge headlong into it      |
-| carol couldn't and wouldn't even | **want**    | to see her again has            |
-| felt for carol was it            | **love**    | or wasn't it that she           |
-| passed all the tests for         | **love**    | and fitted all the descriptions |
-| she loved and would always       | **love**    | oh in a different way           |
-| therese closed her eyes i        | **love**    | you carol said therese opened   |
-
-
-Table 9: Examples of weak obsessive emotion in Carol
+|                    phrase before |   keyword   | phrase after                    |
+|---------------------------------:|:-----------:|:--------------------------------|
+|  she was still beautiful therese | **thought** | with a sudden pang of           |
+|         heard all around her she | **thought** | of carol over a thousand        |
+|         hurt now beyond what you |  **think**  | you can bear and if             |
+|                  if i miss you i |  **think**  | of your voice your hands        |
+|      a tense excitement made her |  **want**   | to plunge headlong into it      |
+| carol couldn't and wouldn't even |  **want**   | to see her again has            |
+|            felt for carol was it |  **love**   | or wasn't it that she           |
+|         passed all the tests for |  **love**   | and fitted all the descriptions |
+|       she loved and would always |  **love**   | oh in a different way           |
+|        therese closed her eyes i |  **love**   | you carol said therese opened   |
 
 
-| phrase before                 | keyword     | phrase after                   |
-|-----------------------------:|:-----------:|:------------------------------|
-| show her the dolls she        | **thought** | the child might like she       |
-| i was so near i               | **thought** | i'd come up he said            |
-| book of english verse i       | **think**   | i left it on top               |
-| women's room who does he      | **think**   | he is mr frankenberg yoo-hoo   |
-| the sweater department if you | **want**    | to ask me anything the         |
-| only half finished i don't    | **want**    | my coffee therese said because |
-| of rye how nice i'd love      | **love**    | one therese carol got up       |
-| when you are alone i          | **love**    | this town because it all       |
+**Table 9:** Examples of weak obsessive emotion in Carol
+
+|                 phrase before |   keyword   | phrase after                   |
+|------------------------------:|:-----------:|:-------------------------------|
+|        show her the dolls she | **thought** | the child might like she       |
+|               i was so near i | **thought** | i'd come up he said            |
+|       book of english verse i |  **think**  | i left it on top               |
+|      women's room who does he |  **think**  | he is mr frankenberg yoo-hoo   |
+| the sweater department if you |  **want**   | to ask me anything the         |
+|    only half finished i don't |  **want**   | my coffee therese said because |
+|      of rye how nice i'd love |  **love**   | one therese carol got up       |
+|          when you are alone i |  **love**   | this town because it all       |
 
 
-Table 10: Examples of strong obsessive emotion in the Ripley series
+**Table 10:** Examples of strong obsessive emotion in the Ripley series
 
-
-| phrase before                       | keyword     | phrase after                   |
-|-----------------------------------:|:-----------:|:------------------------------|
+|                       phrase before |   keyword   | phrase after                   |
+|------------------------------------:|:-----------:|:-------------------------------|
 | towards the coffee table disturbing | **thought** | that and was it the            |
-| and another name kidnapping tom     | **thought** | that might come next certainly |
-| why should he complain he           | **thought** | as he stared out his           |
-| police it was suicidal to           | **think**   | of leaving the country as      |
-| he didn't want her to               | **think**   | he hadn't claimed it imagine   |
-| more enthusiastic he began to       | **think**   | of how the water but           |
-| for a while he didn't               | **want**    | to be frank pierson so         |
-| had done them he didn't             | **want**    | to be a murderer sometimes     |
-| now ballads which he didn't         | **love**    | as much as he loved            |
-| and Marge loving it She'd           | **love**    | it even if he tortured         |
+|     and another name kidnapping tom | **thought** | that might come next certainly |
+|           why should he complain he | **thought** | as he stared out his           |
+|           police it was suicidal to |  **think**  | of leaving the country as      |
+|               he didn't want her to |  **think**  | he hadn't claimed it imagine   |
+|       more enthusiastic he began to |  **think**  | of how the water but           |
+|               for a while he didn't |  **want**   | to be frank pierson so         |
+|             had done them he didn't |  **want**   | to be a murderer sometimes     |
+|         now ballads which he didn't |  **love**   | as much as he loved            |
+|           and Marge loving it She'd |  **love**   | it even if he tortured         |
 
-Table 11: Examples of weak obsessive emotion in the Ripley series
+**Table 11:** Examples of weak obsessive emotion in the Ripley series
 
-| phrase before             | keyword     | phrase after                       |
-|-------------------------:|:-----------:|:----------------------------------|
+|             phrase before |   keyword   | phrase after                       |
+|--------------------------:|:-----------:|:-----------------------------------|
 | for a few minutes heloise | **thought** | he took it too seriously           |
-| it on his return tom      | **thought** | he turned left and walked          |
-| us for lunch i don't      | **think**   | so thank you dear enjoy            |
-| i'd drive you i don't     | **think**   | you can reach teresa tonight       |
-| for lunch at l'aigle noir | **want**    | to join us for lunch               |
-| dinner at eight if you    | **want**    | to join us come down               |
-| asked quietly are you in  | **love**    | with marge dickie no but           |
-| and keep me posted with   | **love**    | dickie tom read it over            |
-| had said to frank you'll  | **love**    | the berlin-tegel airport tom liked |
+|      it on his return tom | **thought** | he turned left and walked          |
+|      us for lunch i don't |  **think**  | so thank you dear enjoy            |
+|     i'd drive you i don't |  **think**  | you can reach teresa tonight       |
+| for lunch at l'aigle noir |  **want**   | to join us for lunch               |
+|    dinner at eight if you |  **want**   | to join us come down               |
+|  asked quietly are you in |  **love**   | with marge dickie no but           |
+|   and keep me posted with |  **love**   | dickie tom read it over            |
+|  had said to frank you'll |  **love**   | the berlin-tegel airport tom liked |
 
 
 </div>
