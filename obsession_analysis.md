@@ -26,7 +26,7 @@ that the words tagged as obsessive seemed to vary in their degree of
 obsession depending on the context in which the words were used.
 Overall, obsession seemed to be a common theme in all of Patricia
 Highsmith's works, although further validation of the custom
-dictionary of obsessive words would be necessary.
+dictionary of the obsessive words would be necessary.
 
 # Introduction
 
@@ -166,7 +166,7 @@ and the Ripley series. The Ripley series was chosen as it is one of the
 most well-known novels by Patricia Highsmith. Also, Patricia Highsmith
 strongly identified with the main character Tom Ripley, sometimes
 signing off her writing with "Pat H., alias Ripley" [6]. A KWIC
-analysis can reveal various ways meaning can change for a word depending
+analysis can reveal various ways the meaning can change for a word depending
 on the context in which it is used [7]. Selected phrases with
 five context words before and after the key words were presented. Each
 phrase contained one of the four most frequently appearing obsessive
